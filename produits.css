@@ -27,13 +27,54 @@
 
 .exemples img {
     width: 80%;
-    height: 40%;
     overflow: hidden;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
     border: 2px solid white;
 
 }
 
+
+.elm_1 {
+    background-image: url("images/audemar_piguet.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm_2 {
+    background-image: url("images/audemar3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm_3 {
+    background-image: url("images/audemar4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm {
+    width: 50px;
+    height: 50px;
+}
+
+.slid_c{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slid{
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+
+.sli{
+    height: 100%;
+    width: 100%;
+    animation: slide 10s ease-in-out infinite;
+}
 @media screen and (min-width: 1000px) {
 
     .produit {
@@ -48,17 +89,10 @@
 
     .exemples img {
         width: 197px;
+        height: 100%;
         margin-bottom: 4%;
     }
 }
-
-/* .elm{
-    width: 100%;
-}
-
-.elm img{
-    width: 100%;
-} */
 
 
 
