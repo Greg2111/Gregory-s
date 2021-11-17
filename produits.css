@@ -168,12 +168,6 @@
 
 
 
-/* @media screen and (min-width: 1000px) {
-    .exemples{ 
-        display: block;
-         width: 25%;
-    }
-} */
 
 /* caracteristique */
 
@@ -183,6 +177,11 @@ h3 {
     text-align: center;
 }
 
+@media screen and (min-width: 1000px) {
+    .caracteritiques{
+        width: 40%;
+    }
+}
 /* les cercles (section2) */
 
 
