@@ -1,0 +1,11 @@
+button{
+    border: none;
+    background-color: #e1c169;
+    /* font-family: 'perpetua titling MT', sans-serif; */
+    font-family: 'Glamor', sans-serif;
+}
+
+button:hover{
+    border: none;
+    background-color: #2f2536;
+}

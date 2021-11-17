@@ -1,0 +1,362 @@
+/* @import url('http://fonts.cdnfonts.com/css/perpetua-titling-mt'); */
+/* @import url('https://www.behance.net/gallery/66748265/Morganite-Free-Typeface-18-Styles/modules/390734349'); */
+@import url(boutons.css);
+/* @import url('http://fonts.cdnfonts.com/css/audrey'); */
+@import url('http://fonts.cdnfonts.com/css/glamor');
+
+body{
+    /* font-family: 'Perpetua Titling MT', sans-serif; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* font-family: 'Audrey', sans-serif; */
+    font-family: 'Glamor', sans-serif;
+}
+
+li{ 
+    margin-left: 4%;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-weight: bold;
+    color: #e1c169;
+}
+
+p{
+    font-size: 25px;
+}
+
+
+.container{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+@media screen and (min-width:1200px) {
+    h1{
+    font-size: 90px;
+    font-weight: bold;
+    color: #e1c169;
+}
+}
+
+/* Header  */
+
+/* Navbar (barre de navigation : menu logo bouton */
+
+.navbar{
+    background-color: #5C5369;
+}
+
+.panier img{
+    width: 55px;
+    height: 55px;
+}
+
+
+.panier:hover{
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    background-color: #320866;
+    overflow:visible ;
+    z-index: 1;
+}
+
+
+
+
+.barre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo{
+    width: 25%;
+}
+
+.menu{
+    width: 40%;
+}
+
+.souligne:hover{
+    border-bottom: 2px solid;
+}
+@media screen and (max-width:1000px) {
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .burger{
+        display: none;
+    }
+}
+
+
+
+
+.menu_ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+}
+
+/* sect_1 */
+
+.sect_1{
+    background-image: url("images/header_backround.jpg");
+    padding-top: 100px;
+    color: white;
+    padding-bottom: 100px;
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .dec{
+    display: flex;
+    justify-content: space-between;
+    }
+    
+}
+
+.trait{
+    width: 50%;
+    background-color: #e1c169;
+    border: 2px solid #e1c169;
+    border-radius: 25px;
+}
+
+.titles h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.titles{
+    margin-bottom: 95px;
+}
+
+.txt_but p {
+    margin-bottom: 80px;
+}
+
+.decouvrir{
+    width: 40%;
+    height: 70px;
+    border-radius: 45px;
+}
+
+.img_sect_1 img{
+    padding-top: 10%;
+    width: 100%;
+}
+
+
+
+.decouvrir a{
+    color: black;
+    font-size: 25px;
+}
+
+.decouvrir a:hover{
+    color: white;
+}
+
+
+
+
+@media screen and (min-width:1200px) {
+    .decouvrir{
+    width: 305px;
+    height: 99px;
+    border-radius: 75px;
+    font-size: 25px;
+    }
+    
+    .decouvrir a{
+        color: black;
+        font-size: 35px;
+    }
+    .img_sect_1 img{
+        padding-top: unset;
+    border-radius: 70%;
+    width: 550px;
+    height: 556px;
+    margin-right: 200px;
+    }
+}
+
+
+
+
+
+
+/* fin header */
+/* debut main */
+
+
+main{
+    background-image: url("images/Composant\ 2\ –\ 1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: white;
+        background-position: bottom;
+        background-size: cover;
+}
+
+
+@media screen and (min-width:1200px) {
+    main{
+        height: 2314px;
+        background-image: url("images/smoke.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top: 100px;
+        color: white;
+        margin-bottom: 0px;
+        background-position: unset;
+    }
+}
+
+
+
+/* Hebdo */
+
+
+.hebdo{
+    padding-top: 100px;
+    height: 215px;
+    text-align: center;
+}
+
+.hebdo h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.trait_hebdo{
+    margin-top: 0px;
+    width: 25%;
+    background-color: #e1c169;
+    border: 2px solid #e1c169;
+    border-radius: 25px;
+    margin-left: 38%;
+}
+
+@media screen and (min-width: 1200px) {
+    .hebdo{
+        height: 596px;
+        text-align: center;
+    }
+
+    .hebdo h1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+/* section 1 (txt et images */
+
+.text_l h2 {
+    color: #e1c169;
+}
+
+
+.watch_display{
+    justify-content: space-between;
+}
+
+.img_r img{
+    width: 170px;
+    height: 170px;
+    border-radius: 250px;
+    margin-left: 30%;
+}
+
+.img_l img{
+    width: 170px;
+    height: 170px;
+    border-radius: 250px;
+    margin-left: 30%;
+}
+
+.text_l{
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px ) {
+    .img_r img{
+        margin-left: 37%;
+    }
+
+    .img_l img{
+        margin-left: 37%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .watch_display{
+        height: 751px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .watch_display .text_l{
+        padding-top: 200px;
+    }
+    
+    .img_r img{
+        margin-left: 174px;
+        border-radius: 1500px;
+        width: 550px;
+        height: 556px;
+    }
+    
+    .img_l img{
+        margin-left: 0px;
+        margin-right: 174px;
+        border-radius: 1500px;
+        width: 550px;
+        height: 556px;
+    }
+    
+    .text_l{
+        width: 70%;
+        text-align: center;
+    }
+}
+
+
+/* Footer */
+
+footer{
+    padding-top: 2%;
+    background-color: #a6a6a6;
+}
+
+
+
+footer p {
+    margin-top: 0px;
+    color: white;
+}
+
+
+@media screen and (min-width: 1200px) {
+    footer .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}

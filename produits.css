@@ -1,0 +1,197 @@
+@import url(boutons.css);
+
+/* MAIN */
+
+/* section 1  */
+
+.sect-1 {
+    width: 100%;
+    padding-top: 2%;
+}
+
+.ajt_panier {
+    margin-left: 35%;
+    margin-bottom: 3%;
+    width: 40%;
+    height: 70px;
+    border-radius: 45px;
+}
+
+
+/* .produit */
+
+.exemples {
+    width: 100%;
+    display: flex;
+}
+
+.exemples img {
+    width: 80%;
+    height: 40%;
+    overflow: hidden;
+    margin-bottom: 25%;
+    border: 2px solid white;
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .produit {
+        display: flex;
+    }
+
+    .exemples {
+        width: 20%;
+        height: 683px;
+        flex-direction: column;
+    }
+
+    .exemples img {
+        width: 197px;
+        margin-bottom: 4%;
+    }
+}
+
+/* .elm{
+    width: 100%;
+}
+
+.elm img{
+    width: 100%;
+} */
+
+
+
+@media screen and (min-width: 1000px) {
+    .elm {
+        width: 669px;
+        height: 683px;
+    }
+
+    .slid_c{
+        width: 669px;
+        height: 683px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slid{
+        display: flex;
+        width: 300%;
+        height: 100%;
+    }
+
+    .sli{
+        height: 100%;
+        width: 100%;
+        animation: slide 10s ease-in-out infinite;
+    }
+    .elm_1 {
+        background-image: url("images/audemar_piguet.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .elm_2 {
+        background-image: url("images/audemar3.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .elm_3 {
+        background-image: url("images/audemar4.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }
+
+    10%{
+        transform: translateX(0%);
+    }
+
+    25%{
+        transform: translateX(-100%);
+    }
+
+    35%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-200%);
+    }
+
+    60%{
+        transform: translateX(-200%);
+    }
+}
+
+
+
+/* @media screen and (min-width: 1000px) {
+    .exemples{ 
+        display: block;
+         width: 25%;
+    }
+} */
+
+/* caracteristique */
+
+.caracteritiques h1,
+p,
+h3 {
+    text-align: center;
+}
+
+/* les cercles (section2) */
+
+
+.w1 {
+    width: 170px;
+    height: 170px;
+    border-radius: 250px;
+    /* margin-left: 25%; */
+}
+
+.wc {
+    width: 100%;
+}
+
+.wc img {
+    margin-left: 30%;
+}
+
+@media screen and (min-width: 800px) {
+    .wc img {
+        margin-left: 40%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .wc img {
+        margin-left: 37%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    .W-line {
+        display: flex;
+    }
+
+    .wc img {
+        margin-left: 25%;
+    }
+
+    .w1 {
+        width: 350px;
+        height: 350px;
+    }
+}
