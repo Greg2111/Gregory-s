@@ -1,0 +1,12 @@
+@media screen and (min-width:1200px) {
+    .main{
+        height: 2514px !important;
+        background-image: url("images/smoke.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top: 100px;
+        color: white;
+        margin-bottom: 0px;
+        background-position: unset;
+    }
+}
