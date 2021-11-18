@@ -1,8 +1,6 @@
 #menuToggle {
-    display: block;
     position: relative;
     top: 80px;
-    left: 50px;
   
     z-index: 1;
   
@@ -62,13 +60,14 @@
     margin-left: 15px;
     margin-top: -70px;
     margin-right: 45px;
-  
-    transform: rotateZ(-145deg);
+    transform: rotate(-45deg) translate(1px, -2px);
+    /* transform: rotateZ(-145deg); */
   }
   
   .b2 {
     margin-left: -3px;
     transform: rotateZ(-40deg);
+    transform: rotate(-45deg) translate(1px, -2px);
   }
   
   #menuToggle span:first-child {
@@ -77,8 +76,13 @@
   
   #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
+    transform: rotateZ(-40deg);
   }
   
+  #menuToggle input ~ span:first-child {
+    transform: rotateZ(-145deg);
+  }
+
   #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(-45deg) translate(1px, -2px);
@@ -95,25 +99,26 @@
     background: white;
   }
   
+  
   /*
     * Make this absolute positioned
     * at the top left of the screen
     */
   #menu {
-    position: absolute;
-    width: 320px;/*445px */
-    margin: 0px 0 0 100px;
+    position: fixed;
+    width: 100vw;/*445xp 320px */
+    /* margin: 0px 0 0 100px; */
     padding: 50px;
     padding-top: 85px;
-  
+    left: 100vw;
     background: #5C5369;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
   
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
+    /* transform-origin: 0% 0%; */
+    
   
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: left 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   
   #menu li {
@@ -125,7 +130,8 @@
     * And let's slide it in from the left
     */
   #menuToggle input:checked ~ ul {
-    transform: none;
+    /* transform: translate(-100vh, 0); */
+    left: 0;
   }
   
   #profil_logo {

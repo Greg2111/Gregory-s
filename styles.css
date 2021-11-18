@@ -219,7 +219,7 @@ main{
 
 @media screen and (min-width:1200px) {
     main{
-        height: 2314px;
+        /* height: 2314px; */
         background-image: url("images/smoke.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
