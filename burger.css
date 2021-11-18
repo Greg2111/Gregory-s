@@ -12,7 +12,7 @@
   
   #menuToggle a {
     text-decoration: none;
-    color: #232323;
+    color: #e1c169;
   
     transition: color 0.3s ease;
   }
@@ -47,7 +47,7 @@
     margin-bottom: -5px;
     position: relative;
   
-    background: red;
+    background: white;
     border-radius: 3px;
   
     z-index: 1;
@@ -82,7 +82,7 @@
   #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(-45deg) translate(1px, -2px);
-    background: red;
+    background: white;
   }
   
   /*
@@ -92,7 +92,7 @@
   #menuToggle input:checked ~ span:nth-last-child(2) {
     opacity: 1;
     transform: rotate(-45deg) translate(-3px, -1px);
-    background: red;
+    background: white;
   }
   
   /*
@@ -106,7 +106,7 @@
     padding: 50px;
     padding-top: 85px;
   
-    background: white;
+    background: #5C5369;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
   
