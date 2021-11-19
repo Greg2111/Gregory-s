@@ -1,0 +1,185 @@
+/* .produit */
+
+.exemples {
+    width: 100%;
+    display: flex;
+}
+
+.exemples img {
+    width: 80%;
+    overflow: hidden;
+    margin-bottom: 5%;
+    border: 2px solid white;
+
+}
+
+
+.elm_1 {
+    background-image: url("images/piguet.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm_2 {
+    background-image: url("images/piguet-fb.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm_3 {
+    background-image: url("images/piguet_tw.PNG");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm_4 {
+    background-image: url("images/paris.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm_5 {
+    background-image: url("images/brux.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm_6 {
+    background-image: url("images/london.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.elm {
+    width: 50px;
+    height: 50px;
+}
+
+.slid_c{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slid{
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+
+.sli{
+    height: 100%;
+    width: 100%;
+    animation: slide 10s ease-in-out infinite;
+}
+@media screen and (min-width: 1000px) {
+
+    .produit {
+        display: flex;
+    }
+
+    .exemples {
+        width: 20%;
+        height: 683px;
+        flex-direction: column;
+    }
+
+    .exemples img {
+        width: 197px;
+        height: 100%;
+        margin-bottom: 4%;
+    }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    .elm {
+        width: 669px;
+        height: 683px;
+    }
+
+    .slid_c{
+        width: 669px;
+        height: 683px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slid{
+        display: flex;
+        width: 300%;
+        height: 100%;
+    }
+
+    .sli{
+        height: 100%;
+        width: 100%;
+        animation: slide 10s ease-in-out infinite;
+    }
+    .elm_1 {
+        background-image: url("images/piguet.PNG");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .elm_2 {
+        background-image: url("images/piguet-fb.PNG");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .elm_3 {
+        background-image: url("images/piguet_tw.PNG");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .elm_4 {
+        background-image: url("images/paris.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .elm_5 {
+        background-image: url("images/brux.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .elm_6 {
+        background-image: url("images/london.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }
+
+    10%{
+        transform: translateX(0%);
+    }
+
+    25%{
+        transform: translateX(-100%);
+    }
+
+    35%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-200%);
+    }
+
+    60%{
+        transform: translateX(-200%);
+    }
+}
+
